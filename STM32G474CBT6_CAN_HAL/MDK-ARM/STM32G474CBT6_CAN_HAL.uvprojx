@@ -341,7 +341,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32G474xx</Define>
               <Undefine></Undefine>
-              <IncludePath>../Inc;../Drivers/STM32G4xx_HAL_Driver/Inc;../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32G4xx/Include;../Drivers/CMSIS/Include;../../../SM_MenuSystem/STM32F446RCT6_Guitarist_CUBEMX/MDK-ARM/SM;./User;../../../SM_MenuSystem/STM32F446RCT6_Guitarist_CUBEMX/MDK-ARM/Std_Expand;./SM</IncludePath>
+              <IncludePath>../Inc;../Drivers/STM32G4xx_HAL_Driver/Inc;../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32G4xx/Include;../Drivers/CMSIS/Include;../../../SM_MenuSystem/STM32F446RCT6_Guitarist_CUBEMX/MDK-ARM/SM;./User;../../../SM_MenuSystem/STM32F446RCT6_Guitarist_CUBEMX/MDK-ARM/Std_Expand;./SM;./Hardware</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -1072,6 +1072,21 @@
               <FileName>stdint_Expand.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\..\..\SM_MenuSystem\STM32F446RCT6_Guitarist_CUBEMX\MDK-ARM\Std_Expand\Stdint_Expand\stdint_Expand.h</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Hardware</GroupName>
+          <Files>
+            <File>
+              <FileName>CAN_Expand.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Hardware\CAN_Expand.c</FilePath>
+            </File>
+            <File>
+              <FileName>CAN_Expand.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Hardware\CAN_Expand.h</FilePath>
             </File>
           </Files>
         </Group>

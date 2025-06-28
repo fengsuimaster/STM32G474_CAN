@@ -7,6 +7,9 @@
 #include "tim.h"
 #include <stdio.h>
 //#include "usart.h"
+#include "fdcan.h"
+//Expand
+#include "CAN_Expand.h"
 //SM
 #include "Menu_Page/Menu_peripheral.h"
 
